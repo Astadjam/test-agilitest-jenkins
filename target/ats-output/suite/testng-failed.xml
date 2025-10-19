@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [suite]" guice-stage="DEVELOPMENT" verbose="5">
+  <parameter name="ats.suite.date.order" value=""/>
+  <parameter name="ats.log.level" value="warning"/>
+  <parameter name="ats.suite.description" value="Simple execution suite"/>
+  <parameter name="webp.image.format" value="false"/>
+  <test thread-count="5" name="Scenario_1(failed)" verbose="5">
+    <classes>
+      <class name="Scenario_1">
+        <methods>
+          <include name="cleanup"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="beforeSuite"/>
+          <include name="TcScenario_1"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- Scenario_1 -->
+    </classes>
+  </test> <!-- Scenario_1(failed) -->
+</suite> <!-- Failed suite [suite] -->

@@ -86,6 +86,7 @@
           <suiteXmlFiles/>
           <reportsDirectory>${project.basedir}/target/surefire-reports</reportsDirectory>
           <testClassesDirectory>${project.basedir}/target/classes</testClassesDirectory>
+          <testFailureIgnore>false</testFailureIgnore>
         </configuration>
       </plugin>
       <plugin>
