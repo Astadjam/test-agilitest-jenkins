@@ -4,9 +4,9 @@
   <parameter name="ats.suite.date.order" value=""/>
   <parameter name="ats.suite.description" value=""/>
   <parameter name="ats.log.level" value="silent"/>
-  <test name="Test_2">
+  <test name="Scenario_2">
     <classes>
-      <class name="Test_2"/>
+      <class name="Scenario_2"/>
     </classes>
   </test>
 </suite>
