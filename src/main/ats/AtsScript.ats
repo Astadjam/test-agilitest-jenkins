@@ -1,0 +1,21 @@
+[ats-header]
+
+author -> Agilitest
+created -> 2020-05-03 at 13:07:15
+description -> Very simple ATS script, more examples at : https://agilitest.com
+groups -> default
+
+[ats-variables]
+
+[ats-actions]
+
+comment -> <b>This script will execute following actions : </b><li><i>Open Chrome browser</i></li><li><i>Navigate to Chrome search engine</i></li><li><i>Clic on 'accept' button</i></li><li><i>Enter text 'agilitest' and send ENTER key</i></li><li><i>Navigate to Agilitest web site</i></li>
+channel-start -> new-channel -> msedge
+comment -> <b>Tips : </b><i>you can format comment text with html ;-)</i>
+goto-url -> google.com
+comment-log -> Click on 'accept' button <font color="green"><i>(if exists)</i></font>
+click [nofail] -> BUTTON [id = L2AGLb]
+keyboard -> agilitest$key(ENTER) -> TEXTAREA [name = q]
+goto-url -> https://www.agilitest.com
+comment-step -> <b>The script will terminate after the channel close action</b><br><i>(this comment text will be saved in the final execution report)</i>
+channel-close -> new-channel

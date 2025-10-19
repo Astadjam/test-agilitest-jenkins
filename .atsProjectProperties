@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8' ?>
+<atsProject>
+  <domain>com.test</domain>
+  <name>projet-test</name>
+  <version>0.0.1</version>
+  <description>Projet de test</description>
+  <useMaven>false</useMaven>
+  <useProjectDomain>false</useProjectDomain>
+  <uuid>4B6EE2ED-1029-DA28-B4D0-FD28292131D5</uuid>
+  <scriptPrefix>Tc</scriptPrefix>
+  <logsType>term</logsType>
+  <groups>
+    <group tag="DEF" color="green" description="">default</group>
+  </groups>
+  <variables/>
+  <environment/>
+  <users/>
+</atsProject>
