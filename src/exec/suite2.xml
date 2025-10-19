@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="suite2" verbose="0" id="AGT-9EEDDB32-C570-A123-F856-FD5FE838B2F4" version="ats2">
+  <parameter name="webp.image.format" value="false"/>
+  <parameter name="ats.suite.date.order" value=""/>
+  <parameter name="ats.suite.description" value=""/>
+  <parameter name="ats.log.level" value="silent"/>
+  <test name="Test_2">
+    <classes>
+      <class name="Test_2"/>
+    </classes>
+  </test>
+</suite>
