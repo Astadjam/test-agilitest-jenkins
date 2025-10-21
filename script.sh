@@ -6,8 +6,6 @@ do
     # exécution et récupération de la sortie de la commande
     commandOutput=$($commandToLaunch)
 
-    echo "sortie commande : $commandOutput"
-
     while IFS= read -r match
     do
         if [[ match -ne "0" ]]
