@@ -31,7 +31,7 @@ public class Scenario_1 extends ActionTestScript{
 
 	/**
 	* Test Name : <b>Scenario_1</b>
-	* Generated at : <b>19 oct. 2025, 20:09:29</b>
+	* Generated at : <b>21 oct. 2025, 21:51:54</b>
 	* Script created at : 19 oct. 2025, 18:08:25
 	* 
 	* @author	agilidev
