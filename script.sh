@@ -4,7 +4,7 @@
 for commandToLaunch in "$@"
 do
     # exécution et récupération de la sortie de la commande
-    commandOutput=$($commandToLaunch)
+    commandOutput=$(cmd /c "$commandToLaunch")
 
     echo "sortie de la commande : $commandOutput"
 
