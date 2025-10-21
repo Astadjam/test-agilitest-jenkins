@@ -4,7 +4,7 @@
 for commandToLaunch in "$@"
 do
     # exécution et récupération de la sortie de la commande
-    commandOutput=$($commandToLaunch)
+    commandOutput=$(powershell -Command "$commandToLaunch")
 
     echo "sortie de la commande : $commandOutput"
 
