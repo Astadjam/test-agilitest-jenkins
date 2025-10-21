@@ -151,11 +151,11 @@ public class AtsLauncher {
 	 *------------------------------------------------------------------------------------------------------------
 	 * Versions and urls of ATS components
 	 *------------------------------------------------------------------------------------------------------------
-	 * ATS library version 			: 3.5.6
-	 * ATS system driver version 	: 1.9.5
-	 * https://actiontestscript.org/releases/ats-libs/3.5.6.zip
-	 * https://actiontestscript.org/releases/ats-drivers/windows/system/1.9.5.zip
-	 * https://actiontestscript.org/releases/ats-drivers/linux/system/1.9.5.tgz
+	 * ATS library version 			: 3.5.7
+	 * ATS system driver version 	: 1.9.6
+	 * https://actiontestscript.org/releases/ats-libs/3.5.7.zip
+	 * https://actiontestscript.org/releases/ats-drivers/windows/system/1.9.6.zip
+	 * https://actiontestscript.org/releases/ats-drivers/linux/system/1.9.6.tgz
 	 *------------------------------------------------------------------------------------------------------------
 	 */
 
@@ -166,7 +166,7 @@ public class AtsLauncher {
 	private static final String ATS_SERVER = "https://actiontestscript.org";
 
 	private static final String ATS_LAUNCHER_VERSION = "3.0.0";
-	private static final String DEFAULT_ATS_VERSION = "3.5.6";
+	private static final String DEFAULT_ATS_VERSION = "3.5.7";
 	private static final String OS_TAG = "#OS#";
 
 	private static final String ATS_VERSION = System.getenv("ATS_VERSION");

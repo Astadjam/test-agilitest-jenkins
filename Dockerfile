@@ -1,4 +1,4 @@
-FROM actiontestscript/linux:3.5.6
+FROM actiontestscript/linux:3.5.7
 
 ENV SUITE=suite
 ENV PROJECT_FOLDER=/home/ats-user/ats-project
