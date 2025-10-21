@@ -2,7 +2,7 @@
 
 author -> agilidev
 created -> 2025-10-19T18:07:24
-modified-at -> 2025-10-19T18:46:50
+modified-at -> 2025-10-22T00:19:24
 modified-by -> agilidev:agili:agilidev
 
 [ats-variables]
@@ -10,7 +10,7 @@ modified-by -> agilidev:agili:agilidev
 
 [ats-actions]
 
-channel-start -> new-channel -> msedge
+channel-start -> new-channel -> chrome
 goto-url -> https://yahaya-dev.vercel.app/
 check-property -> text = Linkedi -> P [tagName = P] -> DIV [text = Linkedin]
 channel-close -> new-channel

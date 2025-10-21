@@ -2,7 +2,7 @@
 
 author -> agilidev
 created -> 2025-10-19T18:09:47
-modified-at -> 2025-10-21T23:24:54
+modified-at -> 2025-10-22T00:19:37
 modified-by -> agilidev:agili:agilidev
 
 [ats-variables]
@@ -10,6 +10,6 @@ modified-by -> agilidev:agili:agilidev
 
 [ats-actions]
 
-channel-start -> new-channel -> msedge
+channel-start -> new-channel -> chrome
 goto-url -> https://yahaya-dev.vercel.app/
 channel-close -> new-channel
