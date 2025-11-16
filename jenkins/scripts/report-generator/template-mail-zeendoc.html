@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <table
+        style="
+            font-family: Arial;
+            font-size: 18px;
+            border-collapse: collapse;
+            background-color: #e5e5ef;
+            color: #000064;
+        "
+    >
+        <thead
+            style="
+                border-bottom: solid 1px #000064;
+            "
+        >
+            <tr
+                style="
+                    text-align: left;
+                "
+            >
+                <th
+                    style="
+                        width: 700px;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        padding: 15px;
+                        border-top-left-radius: 10px;
+                        border-bottom-left-radius: 10px;
+                    "
+                >Rapport validation automatisee</th>
+
+                <th
+                    style="
+                        padding: 15px;
+                        border-top-right-radius: 10px;
+                        border-bottom-right-radius: 10px;
+                        font-size: 16px;
+                        width: 300px;
+                    "
+                >Date d'execution : {executionDate}</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td
+                    style="
+                        font-weight: bold;
+                    "
+                >
+                    <p 
+                        style="
+                            width: 200px;
+                            padding: 10px;
+                            border-radius: 5px;
+                        "
+                    >Tests executes : {countOfExecutedTests}</p>
+                    
+                    <p 
+                        style="
+                            width: 200px;
+                            padding: 10px;
+                            border-radius: 5px;
+                        "
+                    >Tests passes : <span style="color: green">{countOfPassedTests}</span></p>
+
+                    <p 
+                        style="
+                            width: 200px;
+                            padding: 10px;
+                            border-radius: 5px;
+                        "
+                    >Tests echoues : <span style="color: #FF0000">{countOfFailedTests}</span></p>
+                </td>
+
+                <td>
+                    <div
+                        style="
+                            width: 150px;
+                            height: 150px;
+                            border-radius: 50%;
+                            margin: auto;
+                            background-color: green;
+                        "
+                    >
+                        <div
+                            style="
+                            background-color: #FFFFFF;
+                            width: 70px;
+                            height: 70px;
+                            border-radius: 50%;
+                            position: relative;
+                            top: 40px;
+                            left: 40px;
+                        "
+                        >
+                            <p 
+                                style="
+                                    font-family: Arial; 
+                                    font-weight: bold;
+                                    font-size: 10px;
+                                    text-align: center;
+                                    padding-top: 36px;
+                                "
+                            >{percentage}%</p>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    {tables}
+</body>
+</html>
