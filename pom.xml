@@ -9,7 +9,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <ats.releases.url>https://actiontestscript.org/releases</ats.releases.url>
     <ats.lib.version>3.5.7</ats.lib.version>
-    <ats.driver.version>1.9.6</ats.driver.version>
+    <ats.driver.version>1.9.7</ats.driver.version>
     <generate.project.domain>false</generate.project.domain>
     <maven.compiler.target>21</maven.compiler.target>
     <maven.compiler.source>21</maven.compiler.source>

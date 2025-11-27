@@ -2,7 +2,7 @@
 
 author -> agilidev
 created -> 2025-10-19T18:09:47
-modified-at -> 2025-10-22T00:19:37
+modified-at -> 2025-11-27T20:56:33
 modified-by -> agilidev:agili:agilidev
 
 [ats-variables]
@@ -10,6 +10,8 @@ modified-by -> agilidev:agili:agilidev
 
 [ats-actions]
 
-channel-start -> new-channel -> chrome
-goto-url -> https://yahaya-dev.vercel.app/
-channel-close -> new-channel
+//channel-start -> new-channel -> chrome
+channel-start -> new-channel_1 -> file:///C:\Program Files (x86)\WinSCP\WinSCP.exe
+//goto-url -> https://yahaya-dev.vercel.app/
+channel-close -> new-channel-1
+//channel-close -> new-channel

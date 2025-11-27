@@ -152,10 +152,10 @@ public class AtsLauncher {
 	 * Versions and urls of ATS components
 	 *------------------------------------------------------------------------------------------------------------
 	 * ATS library version 			: 3.5.7
-	 * ATS system driver version 	: 1.9.6
+	 * ATS system driver version 	: 1.9.7
 	 * https://actiontestscript.org/releases/ats-libs/3.5.7.zip
-	 * https://actiontestscript.org/releases/ats-drivers/windows/system/1.9.6.zip
-	 * https://actiontestscript.org/releases/ats-drivers/linux/system/1.9.6.tgz
+	 * https://actiontestscript.org/releases/ats-drivers/windows/system/1.9.7.zip
+	 * https://actiontestscript.org/releases/ats-drivers/linux/system/1.9.7.tgz
 	 *------------------------------------------------------------------------------------------------------------
 	 */
 
